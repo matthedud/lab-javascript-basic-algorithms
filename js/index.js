@@ -2,5 +2,5 @@
 
 // Iteration 2: Conditionals
 
-'I love cooking'
+'I love cooking a lot'
 // Iteration 3: Loops
