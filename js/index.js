@@ -44,3 +44,18 @@ for (const letter of driver) {
 }
 
 console.log(driverRevers);
+
+let i=0
+while(i<driver.length || i<navigator.length){
+    if(driver[i]<navigator[i]){
+        console.log("The driver's name goes first.");
+        break
+    } else if(driver[i]>navigator[i]){
+        console.log("Yo, the navigator goes first definitely.");
+        break
+    }
+    i++
+}
+if(driver===navigator){
+    console.log("What?! You both have the same name?");
+}
