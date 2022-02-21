@@ -1,7 +1,8 @@
 // Iteration 1: Names and Input
+const hacker1 = 'Alex'
+console.log(hacker1)
 
-// Iteration 2: Conditionals
-'I love to be here with you <3'
+const hacker2 = 'Matt'
+console.log(hacker2)
 
-'I love cooking a lot'
 // Iteration 3: Loops
