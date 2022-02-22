@@ -63,8 +63,8 @@ while(i<driver.length || i<navigator.length){
 
 if(driver===navigator){
     console.log("What?! You both have the same name?");
-} else if(driver>navigator && !validate){
+} else if(driver>navigator.length && !validate){
     console.log("Yo, the navigator goes first definitely.");
-} else if(driver<navigator && !validate){
+} else if(driver<navigator.length && !validate){
     console.log("The driver's name goes first.");
 }
